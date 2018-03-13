@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./build",
+        "sourceMap": true, //< mapea para saber donde se encuentra un error
+        "target": "es5",
+        "module": "commonjs"
+    },
+    "include": [
+        "./**/*"
+    ],
+    "exclude": [
+        "node_modules/**/*",
+        "./build/**/*"
+    ]
+}
